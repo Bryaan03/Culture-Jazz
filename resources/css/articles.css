@@ -1,0 +1,315 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+body {
+    background-color: #f6f1e7;
+    font-family: "aptos-regular", sans-serif;
+}
+
+#content {
+    margin-top: 8%;
+}
+
+#content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'crystal radio kit', sans-serif;
+    border-radius: 10px;
+    padding: 1% 2%;
+    color: #f6f1e7;
+    background-color: #f19625;
+    text-shadow: #f15c22 1px 2px 2px;
+    width: fit-content;
+}
+
+.infos-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    color: black;
+    width: 35%;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+}
+
+.infos-article a {
+    color: #f6f1e7;
+    background-color: #f15c22;
+    text-shadow: black 1px 2px 2px;
+    width: fit-content;
+    padding: 2% 1%;
+    border-radius: 10px;
+}
+
+.infos-article a:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    background-color: #d94b1c;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+#img_txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img_txt #texte {
+    margin-right: auto;
+    flex-basis: 40%;
+}
+
+#img_txt #texte p {
+    text-align: justify;
+    width: 100%;
+    margin-top: 3%;
+    line-height: 130%;
+}
+
+#img_txt {
+    width: 100%;
+}
+
+#img_txt #right {
+    background-color: #f19625;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: #f6f1e7;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    padding: 2% 3%;
+    flex-basis: 40%;
+}
+
+#img_txt #right::before {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    bottom: 0;
+    left: -10%;
+    width: 60%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+#img_txt #right::after {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    top: 0;
+    right: -10%;
+    width: 60%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+
+#img_txt #right img {
+    width: 100%;
+}
+
+#img_txt #right audio {
+    margin-top: 20%;
+    width: 100%;
+}
+
+#caracteristique {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 75%;
+}
+
+#caracteristique ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#caracteristique ul li {
+    display: flex;
+    flex-direction: column;
+    background-color: #f15c22;
+    border-radius: 10px;
+    color: #f6f1e7;
+    padding: 1% 1%;
+    flex-basis: 20%;
+    font-size: 0.8rem;
+}
+
+#caracteristique ul li:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    background-color: #d94b1c;
+}
+
+#caracteristique ul li strong {
+    font-family: 'Crystal Radio Kit', sans-serif;
+    font-weight: 100;
+    margin-bottom: 1%;
+    font-size: 1rem;
+}
+
+#caracteristique h2{
+    margin-bottom: 1%;
+    font-weight: 700;
+}
+
+.p-5 .like {
+    max-width: 30%;
+}
+
+.p-5 .like i {
+    color: #f6f1e7;
+}
+
+.like {
+    margin-bottom: 3%;
+    display: flex;
+    margin-top: 3%;
+    align-items: center;
+    max-width: 40%;
+    justify-content: space-around;
+}
+
+.bx-like, .bx-dislike {
+    font-size: 2rem;
+    color: #f15c22;
+}
+
+.bx-like:hover, .bx-dislike:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    color: #d94b1c;
+}
+
+
+#appreciation span {
+    color: #f15c22;
+}
+
+#appreciation h2{
+    margin-bottom: 1%;
+}
+
+#appreciation p {
+        margin-bottom: 3%;
+}
+
+#commentaires {
+    margin-bottom: 3%;
+}
+
+#commentaires h2{
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#commentaires .user{
+    color: #f15c22;
+}
+
+#commentaires p {
+    margin-bottom: 3%;
+}
+
+.commentaire {
+    background-color: white;
+    margin-bottom: 2%;
+    width: 80%;
+    padding: 2% 3%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.commentaire::before {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.commentaire::after {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 0;
+    transform: rotate(180deg);
+    opacity: 0.3;
+}
+
+.commentaire p{
+    margin-top: 1%;
+}
+
+.add_comment input{
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+
+.add_comment button{
+    background-color: #f15c22;
+    color: #f6f1e7;
+    border-radius: 10px;
+    padding: 1.4% 2%;
+    margin-left: 5%;
+}
+
+.add_comment button:hover {
+    background-color: #d94b1c;
+    transition: all 0.3s ease;
+}
+
+#carac h1 {
+    font-family: 'Crystal Radio Kit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 6%;
+    border-radius: 10px;
+    padding: 1% 2%;
+    color: #f6f1e7;
+    background-color: #f19625;
+    text-shadow: #f15c22 1px 2px 2px;
+    width: fit-content;
+}
+
+.btn-edit {
+    color: #f6f1e7;
+    background-color: #f15c22;
+    text-shadow: black 1px 2px 2px;
+    width: fit-content;
+    padding: 2% 1%;
+    border-radius: 10px;
+    height: fit-content;
+}

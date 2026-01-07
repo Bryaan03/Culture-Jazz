@@ -1,0 +1,250 @@
+body {
+    background-color: #f6f1e7;
+}
+
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.banner-intro {
+    position: relative;
+    margin-bottom: 5%;
+    background-color: #f19625;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-intro h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Crystal Radio Kit', sans-serif;
+    font-size: 3rem;
+    max-width: 20%;
+    text-shadow: 2px 2px 4px #f15c22;
+}
+
+.banner-intro span {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    margin: 0;
+    color: white;
+    font-family: 'aptos-italic', sans-serif;
+    max-width: 20%;
+}
+
+.banner-intro a {
+    width: fit-content;
+    background-color: #f15c22;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f6f1e7;
+    padding: 1rem 1.5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.banner-intro a:hover {
+    background-color: #d94b1c;
+    transition: all 0.3s ease;
+}
+
+.banner-intro img {
+    width: 60%;
+    height: auto;
+    aspect-ratio: 4.5 / 4;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.card-article {
+    background-color: #f19625;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: #f6f1e7;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card-article::before {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+    width: 40%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.card-article::after {
+    content: "";
+    background-image: url(../images/formes.png);
+    position: absolute;
+    top: -10%;
+    right: -15%;
+    width: 40%;
+    aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+
+.card-article > * {
+    position: relative;
+    z-index: 1;
+}
+
+.card-article:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+} 
+
+.like {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+main div div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 2%;
+}
+
+.p-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 60%;
+    background-color: transparent;
+    margin-left: 5%;
+}
+
+.p-5 > *{
+    margin: 0;
+}
+
+.p-5 .bouton-ensavoirplus {
+    width: fit-content;
+    background-color: #f15c22;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f6f1e7;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p-5 .bouton-ensavoirplus:hover {
+    background-color: #d94b1c;
+    transition: all 0.3s ease;
+}
+
+
+.p-5 .px-4 {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p-5 .px-4:hover {
+    color: #d94b1c;
+    transition: all 0.3s ease;
+}
+
+.p-5 h2 {
+    font-family: 'Crystal Radio Kit', sans-serif;
+    font-size: 2rem;
+    text-shadow: #f15c22 2px 2px 4px;
+}
+
+.grille-accueil {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    height: fit-content;
+}
+
+.grille-liste-artciles {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    height: fit-content;
+}
+
+.liste-articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.card-article img {
+    width: 27%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+
+.apropos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+
+.apropos img {
+    width: 40%;
+    background-color: #3f3430;
+    border-radius: 10px;
+    padding: 1% 2%;
+}
+
+
+.texte-apropos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.texte-apropos h2 {
+    font-family: 'Crystal Radio Kit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 6%;
+    border-radius: 10px;
+    padding: 1% 2%;
+    color: #f6f1e7;
+    background-color: #f19625;
+    text-shadow: #f15c22 1px 2px 2px;
+}

@@ -1,0 +1,49 @@
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+body {
+    font-family: 'aptos-italic', sans-serif;
+}
+
+.text-center{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.text-center h1{
+    text-transform: uppercase;
+}
+
+.text-center button{
+    color: #f1f6e7;
+    background-color: #f15c22;
+    border-radius: 10px;
+    padding: 0.75rem 1.4rem;
+}
+
+.text-center p{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+#pp {
+    background-color: #f15c22;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.gapeeeeeeeuh {
+    margin-bottom: 2rem;
+}
+
+section h2{
+    margin-left: 1%;
+    font-size: larger;
+    font-weight: 700;
+}

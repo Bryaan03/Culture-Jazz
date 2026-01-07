@@ -1,0 +1,1 @@
+const t=document.querySelector("#convertir");t.addEventListener("click",c,!1);function c(){let e=document.querySelector("#euros"),n=e.value;if(isNaN(n))alert("Le montant en euros n'est pas un nombre !"),e.focus();else{let r=document.querySelector("#francs");r.innerHTML=(n*6.55957).toFixed(2)}}

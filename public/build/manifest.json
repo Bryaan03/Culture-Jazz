@@ -1,0 +1,157 @@
+{
+  "resources/css/404.css": {
+    "file": "assets/404-BfttQ0xe.css",
+    "src": "resources/css/404.css",
+    "isEntry": true,
+    "name": "404",
+    "names": [
+      "404.css"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DNEZ3qgM.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/articles.css": {
+    "file": "assets/articles-Cs1NzHGS.css",
+    "src": "resources/css/articles.css",
+    "isEntry": true,
+    "name": "articles",
+    "names": [
+      "articles.css"
+    ]
+  },
+  "resources/css/auteur.css": {
+    "file": "assets/auteur-DC2SjiME.css",
+    "src": "resources/css/auteur.css",
+    "isEntry": true,
+    "name": "auteur",
+    "names": [
+      "auteur.css"
+    ]
+  },
+  "resources/css/form.css": {
+    "file": "assets/form-Ck7ZLkBr.css",
+    "src": "resources/css/form.css",
+    "isEntry": true,
+    "name": "form",
+    "names": [
+      "form.css"
+    ]
+  },
+  "resources/css/index.css": {
+    "file": "assets/index-CxvIXOzF.css",
+    "src": "resources/css/index.css",
+    "isEntry": true,
+    "name": "index",
+    "names": [
+      "index.css"
+    ]
+  },
+  "resources/css/liste_articles.css": {
+    "file": "assets/liste_articles-tn0RQdqM.css",
+    "src": "resources/css/liste_articles.css",
+    "isEntry": true,
+    "name": "liste_articles",
+    "names": [
+      "liste_articles.css"
+    ]
+  },
+  "resources/css/normalize.css": {
+    "file": "assets/normalize-ulgnFFAK.css",
+    "src": "resources/css/normalize.css",
+    "isEntry": true,
+    "name": "normalize",
+    "names": [
+      "normalize.css"
+    ]
+  },
+  "resources/css/profil.css": {
+    "file": "assets/profil-43dVfIdE.css",
+    "src": "resources/css/profil.css",
+    "isEntry": true,
+    "name": "profil",
+    "names": [
+      "profil.css"
+    ]
+  },
+  "resources/css/test-vite.css": {
+    "file": "assets/test-vite-CwjBttwW.css",
+    "src": "resources/css/test-vite.css",
+    "isEntry": true,
+    "name": "test-vite",
+    "names": [
+      "test-vite.css"
+    ]
+  },
+  "resources/css/utilisateur.css": {
+    "file": "assets/utilisateur-ZAfse9iG.css",
+    "src": "resources/css/utilisateur.css",
+    "isEntry": true,
+    "name": "utilisateur",
+    "names": [
+      "utilisateur.css"
+    ]
+  },
+  "resources/fonts/Shadows_Into_Light_Two/OFL.txt": {
+    "file": "assets/OFL-B6VADyHc.txt",
+    "src": "resources/fonts/Shadows_Into_Light_Two/OFL.txt"
+  },
+  "resources/fonts/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf": {
+    "file": "assets/ShadowsIntoLightTwo-Regular-DCrC62n8.ttf",
+    "src": "resources/fonts/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf"
+  },
+  "resources/images/arbre.jpg": {
+    "file": "assets/arbre-Bjiu0X21.jpg",
+    "src": "resources/images/arbre.jpg"
+  },
+  "resources/images/favicon.ico": {
+    "file": "assets/favicon-7t-glTTq.ico",
+    "src": "resources/images/favicon.ico"
+  },
+  "resources/images/formes.png": {
+    "file": "assets/formes-DjhwWA27.png",
+    "src": "resources/images/formes.png"
+  },
+  "resources/images/illustration_banniere.png": {
+    "file": "assets/illustration_banniere-DZf9SKHY.png",
+    "src": "resources/images/illustration_banniere.png"
+  },
+  "resources/images/logo.jpg": {
+    "file": "assets/logo-DoysXC3N.jpg",
+    "src": "resources/images/logo.jpg"
+  },
+  "resources/images/logo1000x1000.jpg": {
+    "file": "assets/logo1000x1000-BlJs_mGU.jpg",
+    "src": "resources/images/logo1000x1000.jpg"
+  },
+  "resources/images/logo_culture_jazz.png": {
+    "file": "assets/logo_culture_jazz-fwh48ap5.png",
+    "src": "resources/images/logo_culture_jazz.png"
+  },
+  "resources/images/no-profile-picture.png": {
+    "file": "assets/no-profile-picture-CjvVk33h.png",
+    "src": "resources/images/no-profile-picture.png"
+  },
+  "resources/images/surfer.jpg": {
+    "file": "assets/surfer-B950RY52.jpg",
+    "src": "resources/images/surfer.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Dn1W1TEI.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/test-vite.js": {
+    "file": "assets/test-vite-CnPhyOTM.js",
+    "name": "test-vite",
+    "src": "resources/js/test-vite.js",
+    "isEntry": true
+  }
+}
