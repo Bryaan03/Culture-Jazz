@@ -22,7 +22,7 @@ Les utilisateurs inscrits peuvent créer, modifier et publier leurs propres arti
 
 ## 🎯 Objectifs 
 
-Les étudiants Informatique avait pour mission de développer la partie back-end de l'application en Laravel, en implémentant un maximum des fonctionnalités demandées. De leurs coté, les étudiants MMI se sont chargée de la conception de la charte graphique et des maquettes, ainsi que de l'intégration des fonctionnalités selon ces maquettes.
+Les étudiants en Informatique avaient pour mission de développer la partie back-end de l'application en Laravel, en implémentant un maximum des fonctionnalités demandées. De leur côté, les étudiants MMI se sont chargés de la conception de la charte graphique et des maquettes, ainsi que de l'intégration des fonctionnalités selon ces maquettes.
 
 ## Recupérer le projet
 
@@ -42,6 +42,6 @@ npm run dev
 php artisan serve
 ```
 
-## Languages et technologies utilisées
+## Langages et technologies utilisées
 
 [![My Skills](https://skillicons.dev/icons?i=php,laravel,sqlite,html,css,git,gitlab,figma&theme=dark&perline=15)](https://skillicons.dev)
